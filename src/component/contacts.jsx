@@ -43,7 +43,7 @@ function ContactPage() {
           className="max-w-2xl mx-auto mt-10 bg-neutral-900 border border-green-700 p-8 rounded-2xl shadow-lg"
         >
           <form
-            action="https://formsubmit.co/ashutosh9335850233@gmail.com" // replace with your email
+            action="https://formsubmit.co/el/rapaxi" // replace with your email
             method="POST"
             className="flex flex-col space-y-4"
           >
