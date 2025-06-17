@@ -100,8 +100,8 @@ const allProjects = {
       image: "/images/portfolio.png",
       about: "This personal portfolio website is a modern, visually appealing digital space crafted using React and Tailwind CSS, offering a smooth and responsive user experience. It showcases all my achievements, skills, and projects in an elegant layout enhanced with engaging Framer Motion animations. Designed with a clean and professional UI, the site emphasizes interactivity and aesthetic appeal, making it not just a showcase but an immersive journey through my career and accomplishments.",
       functionalities: ["Showcases achievements, skills, and projects", "Modern UI with Tailwind CSS", "Animated with Framer Motion","Fully responsive and mobile-friendly"],
-      github: "https://github.com/ashutosh24sharma/portfolio",
-      deployed: "https://portfolio-plum-iota-29.vercel.app/",
+      github: "https://github.com/ashutosh24sharma/newportfolio",
+      deployed: "https://newportfolio-phi-henna.vercel.app/",
     },
   ],
 };
