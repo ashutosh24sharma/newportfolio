@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const certificates = [
+  
   { title: "BIG DATA COURSE CERTIFICATION", image: "/images/big data.jpg" },
   { title: "GenAI CERTIFICATION", image: "/images/gdg.jpg" },
   { title: "DIGITAL PRODUCTIVITY CERTIFICATION", image: "/images/cirtificate.jpeg" },
+  { title: "Android Development Lead at GDG_BNCET", image: "/images/gdgfinal.jpg" },
   { title: "OFFER LATTER BY BLUESTOCK", image: "/images/software .jpg" },
   { title: "NAUKARI CAMPUS YOUNGTURK PARTICIPATION", image: "/images/naukari.jpg" },
   { title: "OFFER LATTER OF INTERNSHIP BY UNIFIED MENTOR", image: "/images/interoffer.jpg" },

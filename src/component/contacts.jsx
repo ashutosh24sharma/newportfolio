@@ -23,7 +23,7 @@ function ContactPage() {
 
         <div className="text-md space-y-2 text-green-300 font-semibold">
           <p>📞 Mobile: +91 9335850233</p>
-          <p>📧 Email: ashutosh9335850233@gmail.com</p>
+          <p className="text-sm">📧 Email: ashutosh9335850233@gmail.com</p>
         </div>
 
         <button

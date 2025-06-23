@@ -3,6 +3,7 @@ import Navbar from "./component/navbar";
 import Exprience from "./component/exprience";
 import Hero from "./component/Hero";
 import About from "./component/about";
+import ProfileLinks from "./component/Profiles.jsx";
 
 
 import ProjectsPage from "./component/Projects";
@@ -12,6 +13,7 @@ import TechnologyDetails from "./component/technologiesdetails";
 import Education from "./component/education.jsx";
 import CertificationPage from "./component/certificates.jsx";
 import ContactPage from "./component/contacts.jsx";
+import MultiResumeViewer from "./component/resumes.jsx";
 
 function HomeSections() {
   return (
@@ -46,6 +48,8 @@ function App() {
           <Route path="/tech/:techId" element={<TechnologyDetails />} />
           <Route path="/projects/:projectId" element={<ProjectDetailPage />} />
            <Route path="/education" element={<Education />} />
+            <Route path="/profiles" element={<ProfileLinks />} /> 
+            <Route path="/resumes" element={<MultiResumeViewer />} />
         </Routes>
       </div>
     </div>
