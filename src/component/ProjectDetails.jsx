@@ -4,6 +4,15 @@ import { useParams } from "react-router-dom";
 const allProjects = {
   mern: [
     {
+      id: "mern-blog",
+      title: "BookHeaven",
+      image: "/images/Screenshot 2025-02-13 222617.png",
+      about: "The Bookstore E-commerce Application is a full-featured online platform developed to facilitate the buying and selling of books. Users can browse a wide range of books, view detailed descriptions, search by category or keyword, and add items to their cart for a seamless purchasing experience. Registered users can also list books for sale, manage their inventory, and track orders. The application features secure user authentication, dynamic product management, and responsive UI components for both desktop and mobile users. Built using the MERN stack (MongoDB, Express, React, Node.js), the platform offers a smooth and intuitive interface backed by a robust backend architecture. Integrated payment gateways and real-time inventory updates ensure a reliable and user-friendly shopping experience.",
+      functionalities: ["Secure user authentication with personalized profile management", "Users can buy,sell,and manage books,including favorites and cart", "Integrated payment system for smooth and secure transactions","Full book management: add, delete, and organize listings easily"],
+      github: "https://github.com/ashutosh24sharma/Bookstores",
+      deployed: "https://bookstore-frontend-vert.vercel.app/",
+    },
+    {
       id: "mern-auth",
       title: "NonStop Chat",
       image: "/images/Screenshot 2025-05-03 213252.png",
@@ -18,15 +27,7 @@ const allProjects = {
       github: "https://github.com/ashutosh24sharma/chatapp",
       deployed: "https://chatapp-9rqo.onrender.com/login",
     },
-    {
-      id: "mern-blog",
-      title: "BookHeaven",
-      image: "/images/Screenshot 2025-02-13 222617.png",
-      about: "The Bookstore E-commerce Application is a full-featured online platform developed to facilitate the buying and selling of books. Users can browse a wide range of books, view detailed descriptions, search by category or keyword, and add items to their cart for a seamless purchasing experience. Registered users can also list books for sale, manage their inventory, and track orders. The application features secure user authentication, dynamic product management, and responsive UI components for both desktop and mobile users. Built using the MERN stack (MongoDB, Express, React, Node.js), the platform offers a smooth and intuitive interface backed by a robust backend architecture. Integrated payment gateways and real-time inventory updates ensure a reliable and user-friendly shopping experience.",
-      functionalities: ["Secure user authentication with personalized profile management", "Users can buy,sell,and manage books,including favorites and cart", "Integrated payment system for smooth and secure transactions","Full book management: add, delete, and organize listings easily"],
-      github: "https://github.com/ashutosh24sharma/Bookstores",
-      deployed: "https://www.youtube.com/watch?v=8aoqN-9zpJ8",
-    },
+    
   ],
   javascript: [
     {
