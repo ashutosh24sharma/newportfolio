@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const certificates = [
-  
+  {title: "Innovation and Design Cource", image: "/images/Idt.jpg"},
   { title: "BIG DATA COURSE CERTIFICATION", image: "/images/big data.jpg" },
   { title: "GenAI CERTIFICATION", image: "/images/gdg.jpg" },
   { title: "DIGITAL PRODUCTIVITY CERTIFICATION", image: "/images/cirtificate.jpeg" },
