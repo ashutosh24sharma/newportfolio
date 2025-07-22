@@ -30,6 +30,15 @@ const allProjects = {
     
   ],
   javascript: [
+     {
+      id: "nots-show",
+      title: "Add your Notes",
+      image: "/images/image copy.png",
+      about: "A visually engaging note display app that allows users to create, view, and manage personal notes or appointment details. Each note includes an image, full name, hometown, purpose, and category (e.g., emergency, important). The data is stored in the browser using localStorage, ensuring persistence across sessions without a backend.",
+      functionalities: ["Perform basic arithmetic operations (add, subtract, multiply, divide)", "Clear, reset, and delete last input features", "Handles input logic with real-time expression evaluation","Responsive UI built with Tailwind CSS for all devices"],
+      github: "https://github.com/ashutosh24sharma/Notes-Show-js",
+      deployed: "https://notes-show.netlify.app/",
+    },
     {
       id: "js-todo",
       title: "To-Do App",
