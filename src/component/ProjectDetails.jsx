@@ -82,7 +82,7 @@ const allProjects = {
       {
       id: "Search",
       title: "search users",
-      image: "/images/image copy2.png",
+      image: "/images/search.png",
       about: "A dynamic JavaScript project to display and filter user profile cards in real-time.",
       functionalities: [
   "Display a list of user profile cards with name, image, and bio",
