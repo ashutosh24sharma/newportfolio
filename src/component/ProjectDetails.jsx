@@ -35,7 +35,13 @@ const allProjects = {
       title: "Add your Notes",
       image: "/images/image copy.png",
       about: "A visually engaging note display app that allows users to create, view, and manage personal notes or appointment details. Each note includes an image, full name, hometown, purpose, and category (e.g., emergency, important). The data is stored in the browser using localStorage, ensuring persistence across sessions without a backend.",
-      functionalities: ["Perform basic arithmetic operations (add, subtract, multiply, divide)", "Clear, reset, and delete last input features", "Handles input logic with real-time expression evaluation","Responsive UI built with Tailwind CSS for all devices"],
+       functionalities: [
+"Create and display custom notes with image, name, hometown, purpose, and category",
+"Store notes persistently in localStorage without backend dependencies",
+"Clear all notes or reset the interface to initial state",
+"Handle user input dynamically with real-time DOM updates",
+"Responsive UI built with CSS for all screen sizes"
+],
       github: "https://github.com/ashutosh24sharma/Notes-Show-js",
       deployed: "https://notes-show.netlify.app/",
     },
@@ -72,6 +78,24 @@ const allProjects = {
       functionalities: ["Explore a curated collection of popular and emerging AI tools.", "Smooth 3D animations for interactive and immersive navigation.", "Clean, responsive, and modern UI for all screen sizes.","Tool descriptions with categories, features, and usage highlights."],
       github: "https://github.com/ashutosh24sharma/FrontendCom",
       deployed: "https://frontend-com-rho.vercel.app/",
+    },
+      {
+      id: "Search",
+      title: "search users",
+      image: "/images/image copy2.png",
+      about: "A dynamic JavaScript project to display and filter user profile cards in real-time.",
+      functionalities: [
+  "Display a list of user profile cards with name, image, and bio",
+  "Perform real-time search filtering based on user input",
+  "Render a 'Not Found' message dynamically when no match exists",
+  "Apply a blurred background effect behind each profile image",
+  "Create and inject card elements using vanilla JavaScript DOM manipulation",
+  "Support case-insensitive search for better usability",
+  "Efficiently clear and re-render results on every input change"
+],
+
+      github: "https://github.com/ashutosh24sharma/search-user",
+      deployed: "https://searches-users.netlify.app/",
     },
     {
       id: "portfolio-site",
