@@ -16,15 +16,15 @@ function ContactPage() {
       </motion.h1>
 
       {/* Contact Info */}
-      <div className="max-w-3xl mx-auto bg-neutral-900 border border-green-700 rounded-2xl shadow-md p-8 text-center">
-        <p className="text-lg text-gray-300 mb-4">
-          Feel free to reach out to me directly!
-        </p>
+     <div className="max-w-3xl mx-auto bg-neutral-900 border border-green-700 rounded-2xl shadow-md p-8 text-center">
+  <p className="text-lg text-gray-300 mb-4">
+    Feel free to reach out to me directly!
+  </p>
 
-        <div className="text-md space-y-2 text-green-300 font-semibold">
-          <p>📞 Mobile: +91 9335850233</p>
-          <p className="text-sm">📧 Email: ashutosh9335850233@gmail.com</p>
-        </div>
+  <div className="text-md space-y-2 text-green-300 font-semibold break-words">
+    <p>📞 Mobile: +91 9335850233</p>
+    <p className="text-sm break-words">📧 Email: ashutoshtab9335850233@gmail.com</p>
+  </div>
 
         <button
           onClick={() => setShowForm(!showForm)}
@@ -43,7 +43,7 @@ function ContactPage() {
           className="max-w-2xl mx-auto mt-10 bg-neutral-900 border border-green-700 p-8 rounded-2xl shadow-lg"
         >
           <form
-            action="https://formsubmit.co/el/rapaxi" // replace with your email
+            action="https://formsubmit.co/ashutoshtab9335850233@gmail.com" // replace with your email
             method="POST"
             className="flex flex-col space-y-4"
           >
