@@ -1,19 +1,46 @@
 import logo from "../assets/logo.png";
-import { FaLinkedin} from "react-icons/fa";
-import { FaGithub} from "react-icons/fa";
-import { FaSquareXTwitter} from "react-icons/fa6";
-import { FaInstagram} from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaCode } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+
 function Navbar() {
-    return ( <nav className=" mb-20 flex items-center justify-between py-6">
-        <div className="flex flex-shrink-0 items-center "><img width={90} height={90} className=" bg-transparent rounded-full" src={logo} alt="auto" /></div>
-        <div className="m-8 flex item-center justify-center gap-6 text-3xl">
-            <a href="https://www.linkedin.com/in/ashutosh-sharma-980202303/"><FaLinkedin/></a>
-            <a href="https://github.com/ashutosh24sharma"><FaGithub/></a>
-            <a href="https://x.com/Ashu2004Sharma"><FaSquareXTwitter/></a>
-            <a href="https://www.instagram.com/as.hutosh_sharma/"><FaInstagram/></a>
-        </div>
-        
-    </nav> );
+  return (
+    <nav className="mb-20 flex items-center justify-between py-6">
+      
+      {/* Logo */}
+      <div className="flex flex-shrink-0 items-center">
+        <img
+          width={90}
+          height={90}
+          className="bg-transparent rounded-full"
+          src={logo}
+          alt="logo"
+        />
+      </div>
+
+      {/* Social Links */}
+      <div className="m-8 flex items-center justify-center gap-6 text-3xl">
+
+        <a href="https://www.linkedin.com/in/ashutosh-sharma-980202303/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin className="hover:text-green-400 transition" />
+        </a>
+
+        <a href="https://github.com/ashutosh24sharma" target="_blank" rel="noopener noreferrer">
+          <FaGithub className="hover:text-green-400 transition" />
+        </a>
+
+        {/* GeeksforGeeks */}
+        <a href="https://www.geeksforgeeks.org/user/ashutosh93m73m/" target="_blank" rel="noopener noreferrer">
+          <FaCode className="hover:text-green-400 transition" />
+        </a>
+
+        {/* LeetCode */}
+        <a href="https://leetcode.com/u/ashu_tosh2004/" target="_blank" rel="noopener noreferrer">
+          <SiLeetcode className="hover:text-green-400 transition" />
+        </a>
+
+      </div>
+    </nav>
+  );
 }
 
 export default Navbar;
