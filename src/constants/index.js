@@ -7,22 +7,45 @@ export const HERO_CONTENT = `I’m a passionate Full Stack Web Developer dedicat
 
 Explore my projects, see how I solve real-world problems, and let’s build something amazing together.`;
 
-export const ABOUT_TEXT = `I’m a dedicated Full Stack Web Developer with a strong foundation in building dynamic, responsive, and user-centric web applications. 
-My tech stack includes React, Tailwind CSS, Node.js, Express, and MongoDB, which I use to craft both intuitive frontends and robust backends.
+export const ABOUT_TEXT = `Here’s a cleaner and slightly improved version of your paragraph, keeping the length almost the same and highlighting your internships:
 
-Through a hands-on full stack development internship, I gained practical experience in real-world project development and collaborative workflows. Additionally, winning a coding hackathon boosted my ability to solve problems under pressure and think creatively in high-stakes environments.
-
-Driven by curiosity and continuous learning, I strive to write clean, efficient code and build web experiences that are both functional and visually engaging.`;
+I’m a dedicated Full Stack Web Developer with a strong foundation in building dynamic, responsive, and user-centric web applications. My tech stack includes React, Tailwind CSS, Node.js, Express, and MongoDB, enabling me to develop both intuitive frontends and robust backends. I have completed full stack development internships, gaining hands-on experience in real-world projects and collaborative workflows. Winning a coding hackathon strengthened my problem-solving skills and ability to perform under pressure. Driven by curiosity and continuous learning, I focus on writing clean, efficient code and building functional, visually engaging web applications.
+`;
 
 export const EXPERIENCES = [
   {
-    Months: "May-June",
-    role: " Full Stack Developer Intern",
+    year: "April 2025 – June 2025",
+    role: "Full Stack Developer Intern",
     company: "Unified Mentor Private Limited",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    description: " Designed and deployed a full-stack e-commerce (bookstore) application using the MERN stack. Improved frontend performance using React.js and Tailwind CSS and deployed the application on Vercel.",
+    technologies: ["React","Express.js", "Node.js", "MongoDB"],
+    images: [
+      { src: "/images/interoffer.jpg", label: "Offer Letter" },
+      { src: "/images/interncompletion.jpg", label: "Certificate" }
+    ]
   },
-  
+  {
+    year: "July 2025 - September 2025",
+    role: "Data Analyst Intern",
+    company: "Shiv Nader Foundation",
+    description: `Worked on a real-world survey dataset focused on candidate study and behavioral patterns. My role involved data cleaning, preprocessing, and performing EDA using Python, SQL, and Excel to uncover insights and trends. I also developed interactive dashboards and storytelling reports in Power BI to visualize key findings. Collaborated closely with an experienced data analytics team, gaining hands-on experience in end-to-end data analysis, visualization, and reporting.`,
+    technologies: ["Excel", "Python", "SQL", "Power BI"],
+    images: [
+       { src: "/images/offermail.jpg", label: "Offer Mail" },
+            { src: "/images/certificatedata.jpg", label: "Completion Certificate" }
+    ]
+  },
+  {
+    year: "January 2026 - April 2026",
+    role: "Web Developer Intern",
+    company: "Codevirus Security Pvt Ltd",
+    description: `Developed HackYard, a secure full-stack MERN application with RESTful APIs and authentication. Built responsive React.js UI and optimized performance using MongoDB and Tailwind CSS`,
+     technologies: ["React","Express.js", "Node.js", "MongoDB"],
+    images: [
+       { src: "/images/codeoffer.png", label: "Offer Mail" },
+            { src: "/images/", label: "Completion Certificate" }
+    ]
+  }
 ];
 
 export const PROJECTS = [

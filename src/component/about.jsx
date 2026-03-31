@@ -1,4 +1,4 @@
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/images.png";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom"; // ✅ Step 1
@@ -25,7 +25,7 @@ function About() {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="about" />
+            <img className="rounded-2xl w-96 border border-white" src={aboutImg} alt="about" />
           </div>
         </motion.div>
 

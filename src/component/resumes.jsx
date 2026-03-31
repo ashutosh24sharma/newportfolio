@@ -5,18 +5,9 @@ const resumes = [
   {
     id: 1,
     title: "Full-stack Developer Resume",
-    image: "/images/fullstack.png",
+    image: "/images/Fullstackresume.png",
   },
-  {
-    id: 2,
-    title: "Frontend Developer Resume",
-    image: "/images/frontend.png",
-  },
-  {
-    id: 3,
-    title: "React.js Developer Resume",
-    image: "/images/React.png",
-  },
+ 
 ];
 
 const MultiResumeViewer = () => {

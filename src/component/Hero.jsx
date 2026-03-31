@@ -1,5 +1,5 @@
 import {HERO_CONTENT} from "../constants";
-import  profilepic from "../assets/as.jpg"
+import  profilepic from "../assets/ashu.jpg"
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
  
